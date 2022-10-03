@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Char counter App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500;600;700&family=Quicksand:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style1.css"/>
+</head>
+<body>
+<div class="container">
+<h2> Real Time character counter </h2>
+<P> Check your English text for grammar , spelling, and punctuation errors with thapa technical real time char counter.</P>
+
+ <textarea name="" id="textarea" class="textarea" maxlength="150" placeholder="Please write here">  
+ </textarea>
+ <button onclick="copyText()"> Copy text</button>
+ <div class="counter-container"> 
+     <p>Total character: <span id="total-counter">0</span></p>
+     <p>Remaining character: <span id="remaining-counter">150</span></p>
+</div>
+</div>
+
+<script src="script1.js"></script>
+    
+</body>
+</html>
