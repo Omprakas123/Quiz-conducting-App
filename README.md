@@ -1,5 +1,5 @@
 # Quiz-conducting-App
-This app will help to conduct various quiz competition for Organization 
+This app will help to conduct various quiz competition for School and Colleges
 
 This quiz app will also able to give the final result after competing the test 
 
